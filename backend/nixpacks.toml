@@ -1,8 +1,11 @@
 [phases.setup]
-run = "corepack enable && corepack prepare pnpm@latest --activate"
+run = "corepack enable && corepack prepare pnpm@latest --activate && node -v"
 
 [phases.build]
 run = "pnpm install && pnpm run build"
 
 [phases.start]
 run = "pnpm start"
+
+[env]
+NODE_VERSION = "22.x"
