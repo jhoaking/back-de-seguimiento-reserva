@@ -1,4 +1,4 @@
 
 [env]
 PORT="3000"
-NODE_VERSION="18.x"
+NODE_VERSION="20.x"
