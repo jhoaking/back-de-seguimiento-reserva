@@ -1,12 +1,4 @@
-[phases.setup]
-run = "corepack enable && corepack prepare pnpm@latest --activate"
-
-[phases.build]
-run = "pnpm install && pnpm run build"
-
-[phases.start]
-run = "node dist/main"
 
 [env]
-NODE_VERSION="22.x"
 PORT="3000"
+NODE_VERSION="18.x"
